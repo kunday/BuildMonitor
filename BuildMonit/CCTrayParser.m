@@ -25,12 +25,15 @@
     NSHTTPURLResponse *response = nil;
     NSError *error = nil;
     NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
-    CXMLDocument *theXMLDocument = [[[CXMLDocument alloc] initWithData:data options:0 error:&error] autorelease];
-    NSArray *theArray = [[theXMLDocument rootElement] elementsForName:@"Project"];
     NSMutableArray *builds = [[NSMutableArray alloc] init];
-    for (CXMLElement *element in theArray) {
-        Build *project = [[Build alloc] initWithXMLNode:element];
-        [builds addObject:project];
+    if (error == nil) {
+        CXMLDocument *theXMLDocument = [[[CXMLDocument alloc] initWithData:data options:0 error:&error] autorelease];
+        NSArray *theArray = [[theXMLDocument rootElement] elementsForName:@"Project"];
+        for (CXMLElement *element in theArray) {
+            Build *project = [[Build alloc] initWithXMLNode:element];
+            [builds addObject:project];
+        }
+        
     }
     return builds;
 }

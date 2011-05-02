@@ -15,4 +15,5 @@
 }
 @property (nonatomic, retain) NSMutableArray *builds;
 - (void)showAddServerView;
+- (void) reloadData;
 @end

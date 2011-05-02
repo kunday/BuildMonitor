@@ -9,9 +9,28 @@
     [addServerButton addTarget:self action:@selector(showAddServerView) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *addServerButtonItem = [[UIBarButtonItem alloc] initWithCustomView:addServerButton];
     self.navigationItem.rightBarButtonItem = addServerButtonItem;
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemPlay target:self action:@selector(reloadData)];
     [super viewDidLoad];
 }
 
+- (void) reloadData {
+    dispatch_queue_t fetchQueue = dispatch_queue_create("com.kunday.BuildMonit", NULL);
+    dispatch_async(fetchQueue, ^{
+        NSFetchRequest *request = [Server requestAll];
+        NSArray *servers = [Server executeFetchRequest:request];
+        builds = [[NSMutableArray alloc] init];
+        for (Server *server in servers) {
+            NSLog(@"%@",server.url);
+            CCTrayParser *parser = [[CCTrayParser alloc] initWithUrl:server.url];
+            for (Build *build in [parser parse]) {
+                [builds addObject:build];
+            }
+        }
+        [self.tableView reloadData];
+    });
+    
+   
+}
 - (void) showAddServerView {
     AddServerViewController *controller = [[AddServerViewController alloc] init];
     [self.navigationController pushViewController:controller animated:YES];
@@ -19,13 +38,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    dispatch_queue_t fetchQueue = dispatch_queue_create("com.kunday.BuildMonit", NULL);
-    dispatch_async(fetchQueue, ^{
-        CCTrayParser *parser = [[CCTrayParser alloc] initWithUrl:@"http://localhost:8080/cc.xml"];
-        builds = [parser parse];
-        [self.tableView reloadData];
-    });
-
+    [self reloadData];
     [super viewWillAppear:animated];
 }
 
@@ -73,10 +86,11 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
-    Build *build = [builds objectAtIndex:[indexPath row]];
-    cell.textLabel.text = build.name;
-    cell.detailTextLabel.text = build.lastBuildStatus;
-
+    if ([builds count]>0) {
+        Build *build = [builds objectAtIndex:[indexPath row]];
+        cell.textLabel.text = build.name;
+        cell.detailTextLabel.text = build.lastBuildStatus;
+    }
     // Configure the cell.
     return cell;
 }

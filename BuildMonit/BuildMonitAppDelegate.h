@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RootViewController.h"
 @interface BuildMonitAppDelegate : NSObject <UIApplicationDelegate> {
 
 }

@@ -37,7 +37,8 @@
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
-{
+{	
+    self.title = @"Add a new Build";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
