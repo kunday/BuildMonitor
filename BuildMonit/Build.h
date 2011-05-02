@@ -10,7 +10,7 @@
 #import "CXMLNode.h"
 #import "CXMLElement.h"
 
-@interface Project : NSObject {
+@interface Build : NSObject {
     NSString *webUrl;
     NSString *name;
     NSString *lastBuildLabel;

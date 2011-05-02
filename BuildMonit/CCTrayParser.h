@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "CXMLDocument.h"
 #import "CXMLElement.h"
-#import "Project.h"
+#import "Build.h"
 
 @interface CCTrayParser : NSObject {
     NSString *url;

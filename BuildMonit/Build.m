@@ -6,10 +6,10 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "Project.h"
+#import "Build.h"
 
 
-@implementation Project
+@implementation Build
 @synthesize webUrl, name, lastBuildLabel, lastBuildTime, lastBuildStatus, activity;
 - (id) initWithXMLNode:(CXMLElement *)element{
     self = [super init];

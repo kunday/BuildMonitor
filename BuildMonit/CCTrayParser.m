@@ -29,7 +29,7 @@
     NSArray *theArray = [[theXMLDocument rootElement] elementsForName:@"Project"];
     NSMutableArray *builds = [[NSMutableArray alloc] init];
     for (CXMLElement *element in theArray) {
-        Project *project = [[Project alloc] initWithXMLNode:element];
+        Build *project = [[Build alloc] initWithXMLNode:element];
         [builds addObject:project];
     }
     return builds;

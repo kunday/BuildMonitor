@@ -17,7 +17,7 @@
 		0D8DDB83136F1BCB002D0C19 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDB82136F1BCB002D0C19 /* RootViewController.m */; };
 		0D8DDB86136F1BCB002D0C19 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8DDB84136F1BCB002D0C19 /* RootViewController.xib */; };
 		0D8DDB9D136F1CA3002D0C19 /* CCTrayParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDB9C136F1CA3002D0C19 /* CCTrayParser.m */; };
-		0D8DDBA1136F1D12002D0C19 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDBA0136F1D12002D0C19 /* Project.m */; };
+		0D8DDBA1136F1D12002D0C19 /* Build.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDBA0136F1D12002D0C19 /* Build.m */; };
 		0D8DDC9D136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDC82136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m */; };
 		0D8DDC9E136F2BE2002D0C19 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDC84136F2BE2002D0C19 /* CXMLNode_CreationExtensions.m */; };
 		0D8DDC9F136F2BE2002D0C19 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDC86136F2BE2002D0C19 /* CXHTMLDocument.m */; };
@@ -50,8 +50,8 @@
 		0D8DDB85136F1BCB002D0C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		0D8DDB9B136F1CA3002D0C19 /* CCTrayParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTrayParser.h; sourceTree = "<group>"; };
 		0D8DDB9C136F1CA3002D0C19 /* CCTrayParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTrayParser.m; sourceTree = "<group>"; };
-		0D8DDB9F136F1D12002D0C19 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
-		0D8DDBA0136F1D12002D0C19 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		0D8DDB9F136F1D12002D0C19 /* Build.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Build.h; sourceTree = "<group>"; };
+		0D8DDBA0136F1D12002D0C19 /* Build.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Build.m; sourceTree = "<group>"; };
 		0D8DDC81136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
 		0D8DDC82136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
 		0D8DDC83136F2BE2002D0C19 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
@@ -186,8 +186,8 @@
 		0D8DDB9E136F1D03002D0C19 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				0D8DDB9F136F1D12002D0C19 /* Project.h */,
-				0D8DDBA0136F1D12002D0C19 /* Project.m */,
+				0D8DDB9F136F1D12002D0C19 /* Build.h */,
+				0D8DDBA0136F1D12002D0C19 /* Build.m */,
 			);
 			name = "View Models";
 			sourceTree = "<group>";
@@ -307,7 +307,7 @@
 				0D8DDB7D136F1BCB002D0C19 /* BuildMonitAppDelegate.m in Sources */,
 				0D8DDB83136F1BCB002D0C19 /* RootViewController.m in Sources */,
 				0D8DDB9D136F1CA3002D0C19 /* CCTrayParser.m in Sources */,
-				0D8DDBA1136F1D12002D0C19 /* Project.m in Sources */,
+				0D8DDBA1136F1D12002D0C19 /* Build.m in Sources */,
 				0D8DDC9D136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m in Sources */,
 				0D8DDC9E136F2BE2002D0C19 /* CXMLNode_CreationExtensions.m in Sources */,
 				0D8DDC9F136F2BE2002D0C19 /* CXHTMLDocument.m in Sources */,

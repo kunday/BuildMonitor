@@ -1,11 +1,3 @@
-//
-//  RootViewController.m
-//  BuildMonit
-//
-//  Created by Arvind Kunday on 02/05/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
-
 #import "RootViewController.h"
 
 @implementation RootViewController
@@ -72,9 +64,9 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
-    Project *project = [builds objectAtIndex:[indexPath row]];
-    cell.textLabel.text = project.name;
-    cell.detailTextLabel.text = project.lastBuildStatus;
+    Build *build = [builds objectAtIndex:[indexPath row]];
+    cell.textLabel.text = build.name;
+    cell.detailTextLabel.text = build.lastBuildStatus;
 
     // Configure the cell.
     return cell;
