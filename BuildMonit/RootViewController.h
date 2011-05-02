@@ -10,8 +10,8 @@
 #import "CCTrayParser.h"
 
 @interface RootViewController : UITableViewController {
-
+    NSMutableArray *builds;
 }
-
+@property (nonatomic, retain) NSMutableArray *builds;
 
 @end

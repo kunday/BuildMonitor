@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 
 @implementation RootViewController
+@synthesize builds;
 
 - (void)viewDidLoad
 {
@@ -17,8 +18,13 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    CCTrayParser *parser = [[CCTrayParser alloc] init];
-    [parser parse];
+    dispatch_queue_t fetchQueue = dispatch_queue_create("com.kunday.BuildMonit", NULL);
+    dispatch_async(fetchQueue, ^{
+        CCTrayParser *parser = [[CCTrayParser alloc] init];
+        builds = [parser parse];
+        [self.tableView reloadData];
+    });
+
     [super viewWillAppear:animated];
 }
 
@@ -53,7 +59,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    NSLog(@"%d",[builds count]);
+    return [builds count];
 }
 
 // Customize the appearance of table view cells.
@@ -65,6 +72,8 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
+    Project *project = [builds objectAtIndex:[indexPath row]];
+    cell.textLabel.text = project.name;
 
     // Configure the cell.
     return cell;

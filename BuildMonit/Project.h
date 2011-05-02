@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "CXMLNode.h"
+#import "CXMLElement.h"
 
 @interface Project : NSObject {
     NSString *webUrl;
@@ -19,5 +20,5 @@
 }
 
 @property (nonatomic, retain) NSString *webUrl, *name, *lastBuildLabel, *lastBuildTime, *lastBuildStatus, *activity;
-
+- (id) initWithXMLNode:(CXMLElement *)element;
 @end

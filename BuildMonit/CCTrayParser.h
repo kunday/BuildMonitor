@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CXMLDocument.h"
+#import "CXMLElement.h"
+#import "Project.h"
 
 @interface CCTrayParser : NSObject {
     NSString *url;
 }
 
 @property (nonatomic, retain) NSString *url;
-- (void) parse;
+- (NSMutableArray *) parse;
 @end
