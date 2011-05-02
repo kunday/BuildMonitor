@@ -5,7 +5,16 @@
 
 - (void)viewDidLoad
 {
+    UIButton *addServerButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [addServerButton addTarget:self action:@selector(showAddServerView) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *addServerButtonItem = [[UIBarButtonItem alloc] initWithCustomView:addServerButton];
+    self.navigationItem.rightBarButtonItem = addServerButtonItem;
     [super viewDidLoad];
+}
+
+- (void) showAddServerView {
+    AddServerViewController *controller = [[AddServerViewController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated

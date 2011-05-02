@@ -60,6 +60,7 @@
 		server.url = self.url.text;
         server.name = self.name.text;
 	}];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 
 }
 
