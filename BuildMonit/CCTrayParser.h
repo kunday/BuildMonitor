@@ -16,5 +16,8 @@
 }
 
 @property (nonatomic, retain) NSString *url;
+
+- (id) initWithUrl:(NSString *)theUrl;
 - (NSMutableArray *) parse;
+
 @end

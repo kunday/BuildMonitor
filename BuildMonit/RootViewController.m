@@ -20,7 +20,7 @@
 {
     dispatch_queue_t fetchQueue = dispatch_queue_create("com.kunday.BuildMonit", NULL);
     dispatch_async(fetchQueue, ^{
-        CCTrayParser *parser = [[CCTrayParser alloc] init];
+        CCTrayParser *parser = [[CCTrayParser alloc] initWithUrl:@"http://localhost:8080/cc.xml"];
         builds = [parser parse];
         [self.tableView reloadData];
     });
@@ -70,10 +70,11 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
     Project *project = [builds objectAtIndex:[indexPath row]];
     cell.textLabel.text = project.name;
+    cell.detailTextLabel.text = project.lastBuildStatus;
 
     // Configure the cell.
     return cell;

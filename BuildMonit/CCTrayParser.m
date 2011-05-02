@@ -11,9 +11,14 @@
 
 @implementation CCTrayParser
 @synthesize url;
-
+- (id) initWithUrl:(NSString *)theUrl{
+    self = [super init];
+    if (self != nil) {
+        self.url = theUrl;
+    }
+    return self;
+}
 - (NSMutableArray *) parse {
-    self.url = @"http://localhost:8080/cc.xml";
     NSString *encodedString = (NSString *) CFURLCreateStringByAddingPercentEscapes(NULL, (CFStringRef) url, NULL, NULL, kCFStringEncodingUTF8);
     NSURL *requestUrl = [ [NSURL alloc] initWithString:encodedString];
     NSURLRequest *request = [NSURLRequest requestWithURL:requestUrl cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:30.0];

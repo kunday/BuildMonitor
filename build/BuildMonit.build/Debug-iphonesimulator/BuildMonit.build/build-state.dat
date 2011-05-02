@@ -4,29 +4,29 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/Info.plist BuildMonit/BuildMonit-Info.plist
 cProcessPCH /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch.gch BuildMonit/BuildMonit-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o /Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonitAppDelegate.o /Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonitAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o /Users/kunday/Projects/BuildMonit/BuildMonit/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o /Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/Project.o /Users/kunday/Projects/BuildMonit/BuildMonit/Project.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXHTMLDocument.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXHTMLDocument.m normal i386 objective-c com.apple.compilers.llvmgcc42
-cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLDocument.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLDocument.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonitAppDelegate.o /Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonitAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/Project.o /Users/kunday/Projects/BuildMonit/BuildMonit/Project.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXHTMLDocument.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXHTMLDocument.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o /Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLElement.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLElement.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLElement_CreationExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLElement_CreationExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLNamespaceNode.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLNamespaceNode.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o /Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o /Users/kunday/Projects/BuildMonit/BuildMonit/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLNode.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLNode.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLNode_PrivateExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CXMLNode_XPathExtensions.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXMLNode_XPathExtensions.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CTidy.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.llvmgcc42
 cLd /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit normal i386
 cGenerateDSYMFile /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit
+cCompileXIB /Users/kunday/Projects/BuildMonit/BuildMonit/en.lproj/MainWindow.xib
 cCompileXIB /Users/kunday/Projects/BuildMonit/BuildMonit/en.lproj/RootViewController.xib
 cCopyStringsFile /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/en.lproj/InfoPlist.strings BuildMonit/en.lproj/InfoPlist.strings
-cCompileXIB /Users/kunday/Projects/BuildMonit/BuildMonit/en.lproj/MainWindow.xib
 cTouch /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
@@ -85,18 +85,18 @@ s2470
 i"BuildMonitAppDelegate.h"
 
 N/Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.h
-c000000004DBEFA9F0000000000000182
-t1304361631
-s386
+c000000004DBEFD7900000000000001AB
+t1304362361
+s427
 i<Foundation/Foundation.h>
 i"CXMLDocument.h"
 i"CXMLElement.h"
 i"Project.h"
 
 N/Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m
-c000000004DBEFB8500000000000004F2
-t1304361861
-s1266
+c000000004DBEFD80000000000000054C
+t1304362368
+s1356
 i"CCTrayParser.h"
 
 N/Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/CXHTMLDocument.h
@@ -320,9 +320,9 @@ i<UIKit/UIKit.h>
 i"CCTrayParser.h"
 
 N/Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m
-c000000004DBEFCC400000000000010BC
-t1304362180
-s4284
+c000000004DBEFDD0000000000000111D
+t1304362448
+s4381
 i"RootViewController.h"
 
 N/Users/kunday/Projects/BuildMonit/BuildMonit/en.lproj/InfoPlist.strings
@@ -341,9 +341,9 @@ t1304355915
 s17485
 
 N/Users/kunday/Projects/BuildMonit/BuildMonit/main.m
-c000000004DBEE44B0000000000000168
-t1304355915
-s360
+c000000004DBEFDAA0000000000000169
+t1304362410
+s361
 i<UIKit/UIKit.h>
 
 N/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonit.LinkFileList
@@ -356,8 +356,8 @@ t1304361345
 s49720
 
 N/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o
-t1304361862
-s11800
+t1304362368
+s12652
 
 N/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CTidy.o
 t1304361345
@@ -416,24 +416,24 @@ t1304361344
 s15688
 
 N/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o
-t1304362181
-s46052
+t1304362410
+s46152
 
 N/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o
-t1304361344
+t1304362410
 s3084
 
 N/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app
-t1304362181
+t1304362410
 s204
 
 N/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM
-t1304362181
+t1304362410
 s102
 
 N/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit
-t1304362181
-s90392
+t1304362410
+s90508
 
 N/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/Info.plist
 t1304361343
@@ -520,7 +520,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese6adaa4f346fb341^42d1ac4f346fb341^---0#1#0#--18"Check dependencies
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesac91bd51356fb341^a720c351356fb341^---0#1#0#--18"Check dependencies
 
 CCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonitAppDelegate.o /Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonitAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s326054144.894396
@@ -536,8 +536,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonitAppDelegate.m5226e500316fb341^0ec00e01316fb341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonitAppDelegate.m0000000000000000^2269"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonitAppDelegate.o BuildMonit/BuildMonitAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonitAppDelegate.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonitAppDelegate.o
 
 CCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o /Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s326054662.519870
-e326054662.622697
+s326055168.557725
+e326055168.660056
 r1
 xCompileC
 xbuild/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o
@@ -546,7 +546,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m9f3b8506336fb341^12699f06336fb341^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m0000000000000000^2233"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o BuildMonit/CCTrayParser.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m0beb8e00356fb341^d7f8a800356fb341^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m0000000000000000^2233"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o BuildMonit/CCTrayParser.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/CCTrayParser.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CCTrayParser.o
 
 CCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/CTidy.o /Users/kunday/Projects/BuildMonit/BuildMonit/Libs/TouchXML/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.llvmgcc42
 s326054145.378883
@@ -731,8 +731,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/Project.m62bfbf00316fb341^f25de600316fb341^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/Project.m0000000000000000^2213"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/Project.o BuildMonit/Project.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/Project.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/Project.o
 
 CCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o /Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s326054981.730247
-e326054981.836890
+s326055249.762182
+e326055249.876515
 r1
 xCompileC
 xbuild/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o
@@ -741,11 +741,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m3e25bb45346fb341^f73dd645346fb341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m0000000000000000^2257"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o BuildMonit/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.mc74bc351356fb341^b262e051356fb341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m0000000000000000^2257"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o BuildMonit/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/RootViewController.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/RootViewController.o
 
 CCompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o /Users/kunday/Projects/BuildMonit/BuildMonit/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
-s326054144.889661
-e326054145.005975
+s326055210.201777
+e326055210.269169
 r1
 xCompileC
 xbuild/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o
@@ -754,7 +754,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvmgcc42
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/main.m5ef6e300316fb341^c58f0101316fb341^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/main.m0000000000000000^2201"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o BuildMonit/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/main.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/kunday/Projects/BuildMonit/BuildMonit/main.m64ca332a356fb341^64e8442a356fb341^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/main.m0000000000000000^2201"CompileC build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o BuildMonit/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -include /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch -c /Users/kunday/Projects/BuildMonit/BuildMonit/main.m -o /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/main.o
 
 CCompileXIB /Users/kunday/Projects/BuildMonit/BuildMonit/en.lproj/MainWindow.xib
 s326054145.522262
@@ -782,23 +782,23 @@ xBuildMonit/en.lproj/InfoPlist.strings
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy BuildMonit/en.lproj/InfoPlist.stringse4ba8501316fb341^87a48601316fb341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/en.lproj/InfoPlist.strings0000000000000000^513"CopyStringsFile build/Debug-iphonesimulator/BuildMonit.app/en.lproj/InfoPlist.strings BuildMonit/en.lproj/InfoPlist.strings    cd /Users/kunday/Projects/BuildMonit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/en.lproj -- BuildMonit/en.lproj/InfoPlist.strings
 
 CGenerateDSYMFile /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit
-s326054981.872630
-e326054981.899126
+s326055249.918539
+e326055249.951471
 r1
 xGenerateDSYMFile
 x/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM
 x/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generating /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYMc87ddf45346fb341^ed2ce645346fb341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM/0000000000000000^496"GenerateDSYMFile build/Debug-iphonesimulator/BuildMonit.app.dSYM build/Debug-iphonesimulator/BuildMonit.app/BuildMonit    cd /Users/kunday/Projects/BuildMonit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit -o /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generating /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM7e39eb51356fb341^6c92f351356fb341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM/0000000000000000^496"GenerateDSYMFile build/Debug-iphonesimulator/BuildMonit.app.dSYM build/Debug-iphonesimulator/BuildMonit.app/BuildMonit    cd /Users/kunday/Projects/BuildMonit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit -o /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app.dSYM
 
 CLd /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit normal i386
-s326054981.837740
-e326054981.872375
+s326055249.876756
+e326055249.918143
 r1
 xLd
 x/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit
 xnormal
 xi386
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonitec89d645346fb341^1954df45346fb341^---0#0#0#--971"Ld build/Debug-iphonesimulator/BuildMonit.app/BuildMonit normal i386    cd /Users/kunday/Projects/BuildMonit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -filelist /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonit.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit4d85e051356fb341^38f7eb51356fb341^---0#0#0#--971"Ld build/Debug-iphonesimulator/BuildMonit.app/BuildMonit normal i386    cd /Users/kunday/Projects/BuildMonit    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -filelist /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/Objects-normal/i386/BuildMonit.LinkFileList -mmacosx-version-min=10.6 -lxml2 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/BuildMonit
 
 CProcessInfoPlistFile /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app/Info.plist BuildMonit/BuildMonit-Info.plist
 s326054143.954396
@@ -826,10 +826,10 @@ xcom.apple.compilers.llvmgcc42
 lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile BuildMonit/BuildMonit-Prefix.pch931af6ff306fb341^8048bf00316fb341^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonit-Prefix.pch0000000000000000^2194"ProcessPCH /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch.gch BuildMonit/BuildMonit-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/kunday/Projects/BuildMonit    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-generated-files.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-own-target-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-all-target-headers.hmap -iquote /Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/BuildMonit-project-headers.hmap -I/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/libxml2 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources/i386 -I/Users/kunday/Projects/BuildMonit/build/BuildMonit.build/Debug-iphonesimulator/BuildMonit.build/DerivedSources -F/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator -c /Users/kunday/Projects/BuildMonit/BuildMonit/BuildMonit-Prefix.pch -o /var/folders/2-/2-jFmcuRGCSjcbDQmyzcEk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BuildMonit-Prefix-axzlaqnbxedpkohawrjfmvrfzvth/BuildMonit-Prefix.pch.gch
 
 CTouch /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app
-s326054981.902767
-e326054981.910807
+s326055249.954530
+e326055249.963539
 r1
 xTouch
 x/Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app
-lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Touch /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app952ce745346fb341^2d5de945346fb341^---0#0#0#--320"Touch build/Debug-iphonesimulator/BuildMonit.app    cd /Users/kunday/Projects/BuildMonit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Touch /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.appca70f451356fb341^7eaaf651356fb341^---0#0#0#--320"Touch build/Debug-iphonesimulator/BuildMonit.app    cd /Users/kunday/Projects/BuildMonit    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kunday/Projects/BuildMonit/build/Debug-iphonesimulator/BuildMonit.app
 
