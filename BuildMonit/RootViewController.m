@@ -17,6 +17,8 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    CCTrayParser *parser = [[CCTrayParser alloc] init];
+    [parser parse];
     [super viewWillAppear:animated];
 }
 
