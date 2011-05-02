@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0831E5136F38C900ED6E67 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0D0831D3136F38C900ED6E67 /* .gitignore */; };
+		0D0831E6136F38C900ED6E67 /* ActiveRecordHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831D5136F38C900ED6E67 /* ActiveRecordHelpers.m */; };
+		0D0831E7136F38C900ED6E67 /* ARCoreDataAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831D7136F38C900ED6E67 /* ARCoreDataAction.m */; };
+		0D0831E8136F38C900ED6E67 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0D0831D9136F38C900ED6E67 /* LICENSE */; };
+		0D0831E9136F38C900ED6E67 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831DB136F38C900ED6E67 /* NSManagedObject+ActiveRecord.m */; };
+		0D0831EA136F38C900ED6E67 /* NSManagedObjectContext+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831DD136F38C900ED6E67 /* NSManagedObjectContext+ActiveRecord.m */; };
+		0D0831EB136F38C900ED6E67 /* NSManagedObjectModel+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831DF136F38C900ED6E67 /* NSManagedObjectModel+ActiveRecord.m */; };
+		0D0831EC136F38C900ED6E67 /* NSPersistentStore+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831E1136F38C900ED6E67 /* NSPersistentStore+ActiveRecord.m */; };
+		0D0831ED136F38C900ED6E67 /* NSPersistentStoreCoordinator+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831E3136F38C900ED6E67 /* NSPersistentStoreCoordinator+ActiveRecord.m */; };
+		0D0831EE136F38C900ED6E67 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D0831E4136F38C900ED6E67 /* README.md */; };
+		0D0831F2136F38E000ED6E67 /* DataModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831F0136F38E000ED6E67 /* DataModels.xcdatamodeld */; };
+		0D0831F6136F392D00ED6E67 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831F5136F392D00ED6E67 /* Server.m */; };
+		0D0831FA136F396500ED6E67 /* AddServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831F8136F396500ED6E67 /* AddServerViewController.m */; };
+		0D0831FB136F396500ED6E67 /* AddServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0831F9136F396500ED6E67 /* AddServerViewController.xib */; };
+		0D083209136F3AD300ED6E67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D083208136F3AD300ED6E67 /* CoreData.framework */; };
 		0D8DDB6D136F1BCB002D0C19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DDB6C136F1BCB002D0C19 /* UIKit.framework */; };
 		0D8DDB6F136F1BCB002D0C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DDB6E136F1BCB002D0C19 /* Foundation.framework */; };
 		0D8DDB71136F1BCB002D0C19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DDB70136F1BCB002D0C19 /* CoreGraphics.framework */; };
@@ -34,6 +49,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D0831D3136F38C900ED6E67 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0D0831D4136F38C900ED6E67 /* ActiveRecordHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveRecordHelpers.h; sourceTree = "<group>"; };
+		0D0831D5136F38C900ED6E67 /* ActiveRecordHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveRecordHelpers.m; sourceTree = "<group>"; };
+		0D0831D6136F38C900ED6E67 /* ARCoreDataAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCoreDataAction.h; sourceTree = "<group>"; };
+		0D0831D7136F38C900ED6E67 /* ARCoreDataAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCoreDataAction.m; sourceTree = "<group>"; };
+		0D0831D8136F38C900ED6E67 /* CoreData+ActiveRecordFetching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+ActiveRecordFetching.h"; sourceTree = "<group>"; };
+		0D0831D9136F38C900ED6E67 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0D0831DA136F38C900ED6E67 /* NSManagedObject+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+ActiveRecord.h"; sourceTree = "<group>"; };
+		0D0831DB136F38C900ED6E67 /* NSManagedObject+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+ActiveRecord.m"; sourceTree = "<group>"; };
+		0D0831DC136F38C900ED6E67 /* NSManagedObjectContext+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+ActiveRecord.h"; sourceTree = "<group>"; };
+		0D0831DD136F38C900ED6E67 /* NSManagedObjectContext+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+ActiveRecord.m"; sourceTree = "<group>"; };
+		0D0831DE136F38C900ED6E67 /* NSManagedObjectModel+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+ActiveRecord.h"; sourceTree = "<group>"; };
+		0D0831DF136F38C900ED6E67 /* NSManagedObjectModel+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectModel+ActiveRecord.m"; sourceTree = "<group>"; };
+		0D0831E0136F38C900ED6E67 /* NSPersistentStore+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStore+ActiveRecord.h"; sourceTree = "<group>"; };
+		0D0831E1136F38C900ED6E67 /* NSPersistentStore+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStore+ActiveRecord.m"; sourceTree = "<group>"; };
+		0D0831E2136F38C900ED6E67 /* NSPersistentStoreCoordinator+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+ActiveRecord.h"; sourceTree = "<group>"; };
+		0D0831E3136F38C900ED6E67 /* NSPersistentStoreCoordinator+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+ActiveRecord.m"; sourceTree = "<group>"; };
+		0D0831E4136F38C900ED6E67 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0D0831F1136F38E000ED6E67 /* DataModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModels.xcdatamodel; sourceTree = "<group>"; };
+		0D0831F4136F392D00ED6E67 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		0D0831F5136F392D00ED6E67 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		0D0831F7136F396500ED6E67 /* AddServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddServerViewController.h; sourceTree = "<group>"; };
+		0D0831F8136F396500ED6E67 /* AddServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddServerViewController.m; sourceTree = "<group>"; };
+		0D0831F9136F396500ED6E67 /* AddServerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddServerViewController.xib; sourceTree = "<group>"; };
+		0D083208136F3AD300ED6E67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0D8DDB68136F1BCB002D0C19 /* BuildMonit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildMonit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8DDB6C136F1BCB002D0C19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D8DDB6E136F1BCB002D0C19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,7 +90,7 @@
 		0D8DDB85136F1BCB002D0C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		0D8DDB9B136F1CA3002D0C19 /* CCTrayParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTrayParser.h; sourceTree = "<group>"; };
 		0D8DDB9C136F1CA3002D0C19 /* CCTrayParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTrayParser.m; sourceTree = "<group>"; };
-		0D8DDB9F136F1D12002D0C19 /* Build.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Build.h; sourceTree = "<group>"; };
+		0D8DDB9F136F1D12002D0C19 /* Build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Build.h; sourceTree = "<group>"; };
 		0D8DDBA0136F1D12002D0C19 /* Build.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Build.m; sourceTree = "<group>"; };
 		0D8DDC81136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
 		0D8DDC82136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
@@ -86,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D083209136F3AD300ED6E67 /* CoreData.framework in Frameworks */,
 				0D8DDB6D136F1BCB002D0C19 /* UIKit.framework in Frameworks */,
 				0D8DDB6F136F1BCB002D0C19 /* Foundation.framework in Frameworks */,
 				0D8DDB71136F1BCB002D0C19 /* CoreGraphics.framework in Frameworks */,
@@ -95,9 +136,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0831D2136F38C900ED6E67 /* ActiverecordCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0D0831D3136F38C900ED6E67 /* .gitignore */,
+				0D0831D4136F38C900ED6E67 /* ActiveRecordHelpers.h */,
+				0D0831D5136F38C900ED6E67 /* ActiveRecordHelpers.m */,
+				0D0831D6136F38C900ED6E67 /* ARCoreDataAction.h */,
+				0D0831D7136F38C900ED6E67 /* ARCoreDataAction.m */,
+				0D0831D8136F38C900ED6E67 /* CoreData+ActiveRecordFetching.h */,
+				0D0831D9136F38C900ED6E67 /* LICENSE */,
+				0D0831DA136F38C900ED6E67 /* NSManagedObject+ActiveRecord.h */,
+				0D0831DB136F38C900ED6E67 /* NSManagedObject+ActiveRecord.m */,
+				0D0831DC136F38C900ED6E67 /* NSManagedObjectContext+ActiveRecord.h */,
+				0D0831DD136F38C900ED6E67 /* NSManagedObjectContext+ActiveRecord.m */,
+				0D0831DE136F38C900ED6E67 /* NSManagedObjectModel+ActiveRecord.h */,
+				0D0831DF136F38C900ED6E67 /* NSManagedObjectModel+ActiveRecord.m */,
+				0D0831E0136F38C900ED6E67 /* NSPersistentStore+ActiveRecord.h */,
+				0D0831E1136F38C900ED6E67 /* NSPersistentStore+ActiveRecord.m */,
+				0D0831E2136F38C900ED6E67 /* NSPersistentStoreCoordinator+ActiveRecord.h */,
+				0D0831E3136F38C900ED6E67 /* NSPersistentStoreCoordinator+ActiveRecord.m */,
+				0D0831E4136F38C900ED6E67 /* README.md */,
+			);
+			name = ActiverecordCoreData;
+			path = BuildMonit/Libs/ActiverecordCoreData;
+			sourceTree = "<group>";
+		};
+		0D0831F3136F391C00ED6E67 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D0831F4136F392D00ED6E67 /* Server.h */,
+				0D0831F5136F392D00ED6E67 /* Server.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		0D8DDB5D136F1BCB002D0C19 = {
 			isa = PBXGroup;
 			children = (
+				0D0831F0136F38E000ED6E67 /* DataModels.xcdatamodeld */,
 				0D8DDB72136F1BCB002D0C19 /* BuildMonit */,
 				0D8DDB6B136F1BCB002D0C19 /* Frameworks */,
 				0D8DDB69136F1BCB002D0C19 /* Products */,
@@ -115,6 +192,8 @@
 		0D8DDB6B136F1BCB002D0C19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D083208136F3AD300ED6E67 /* CoreData.framework */,
+				0D0831D2136F38C900ED6E67 /* ActiverecordCoreData */,
 				0D8DDC7F136F2BE2002D0C19 /* TouchXML */,
 				0D8DDB6C136F1BCB002D0C19 /* UIKit.framework */,
 				0D8DDB6E136F1BCB002D0C19 /* Foundation.framework */,
@@ -126,6 +205,7 @@
 		0D8DDB72136F1BCB002D0C19 /* BuildMonit */ = {
 			isa = PBXGroup;
 			children = (
+				0D0831F3136F391C00ED6E67 /* Models */,
 				0D8DDB9E136F1D03002D0C19 /* View Models */,
 				0D8DDB9A136F1C84002D0C19 /* Parsers */,
 				0D8DDB8E136F1BFF002D0C19 /* Delegate */,
@@ -152,6 +232,8 @@
 			children = (
 				0D8DDB81136F1BCB002D0C19 /* RootViewController.h */,
 				0D8DDB82136F1BCB002D0C19 /* RootViewController.m */,
+				0D0831F7136F396500ED6E67 /* AddServerViewController.h */,
+				0D0831F8136F396500ED6E67 /* AddServerViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -159,6 +241,7 @@
 		0D8DDB8D136F1BEF002D0C19 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D0831F9136F396500ED6E67 /* AddServerViewController.xib */,
 				0D8DDB7E136F1BCB002D0C19 /* MainWindow.xib */,
 				0D8DDB84136F1BCB002D0C19 /* RootViewController.xib */,
 			);
@@ -293,6 +376,10 @@
 				0D8DDB77136F1BCB002D0C19 /* InfoPlist.strings in Resources */,
 				0D8DDB80136F1BCB002D0C19 /* MainWindow.xib in Resources */,
 				0D8DDB86136F1BCB002D0C19 /* RootViewController.xib in Resources */,
+				0D0831E5136F38C900ED6E67 /* .gitignore in Resources */,
+				0D0831E8136F38C900ED6E67 /* LICENSE in Resources */,
+				0D0831EE136F38C900ED6E67 /* README.md in Resources */,
+				0D0831FB136F396500ED6E67 /* AddServerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +408,16 @@
 				0D8DDCA7136F2BE2002D0C19 /* CXMLNode_PrivateExtensions.m in Sources */,
 				0D8DDCA8136F2BE2002D0C19 /* CXMLNode_XPathExtensions.m in Sources */,
 				0D8DDCA9136F2BE2002D0C19 /* CTidy.m in Sources */,
+				0D0831E6136F38C900ED6E67 /* ActiveRecordHelpers.m in Sources */,
+				0D0831E7136F38C900ED6E67 /* ARCoreDataAction.m in Sources */,
+				0D0831E9136F38C900ED6E67 /* NSManagedObject+ActiveRecord.m in Sources */,
+				0D0831EA136F38C900ED6E67 /* NSManagedObjectContext+ActiveRecord.m in Sources */,
+				0D0831EB136F38C900ED6E67 /* NSManagedObjectModel+ActiveRecord.m in Sources */,
+				0D0831EC136F38C900ED6E67 /* NSPersistentStore+ActiveRecord.m in Sources */,
+				0D0831ED136F38C900ED6E67 /* NSPersistentStoreCoordinator+ActiveRecord.m in Sources */,
+				0D0831F2136F38E000ED6E67 /* DataModels.xcdatamodeld in Sources */,
+				0D0831F6136F392D00ED6E67 /* Server.m in Sources */,
+				0D0831FA136F396500ED6E67 /* AddServerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +534,22 @@
 				0D8DDB8B136F1BCB002D0C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D0831F0136F38E000ED6E67 /* DataModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D0831F1136F38E000ED6E67 /* DataModels.xcdatamodel */,
+			);
+			currentVersion = 0D0831F1136F38E000ED6E67 /* DataModels.xcdatamodel */;
+			path = DataModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0D8DDB5F136F1BCB002D0C19 /* Project object */;
 }
