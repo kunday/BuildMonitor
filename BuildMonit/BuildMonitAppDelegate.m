@@ -19,6 +19,16 @@
 {
     [ActiveRecordHelpers setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"DataStore"];
     
+    
+    UILocalNotification *localNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+	
+    if (localNotification) 
+	{
+		[[MKLocalNotificationsScheduler sharedInstance] handleReceivedNotification:localNotification];
+    }
+
+    
+    
     RootViewController *controller = [[RootViewController alloc] init];
     controller.title = @"Build Status";
 

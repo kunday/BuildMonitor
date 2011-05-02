@@ -26,6 +26,8 @@
                 [builds addObject:build];
             }
         }
+        [[MKLocalNotificationsScheduler sharedInstance] setBadgeCount:[builds count]];
+
         [self.tableView reloadData];
     });
     
@@ -38,6 +40,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    [[MKLocalNotificationsScheduler sharedInstance] clearBadgeCount];
     [self reloadData];
     [super viewWillAppear:animated];
 }
