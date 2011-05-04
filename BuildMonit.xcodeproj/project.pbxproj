@@ -46,7 +46,6 @@
 		0D8DDCA7136F2BE2002D0C19 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDC96136F2BE2002D0C19 /* CXMLNode_PrivateExtensions.m */; };
 		0D8DDCA8136F2BE2002D0C19 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDC98136F2BE2002D0C19 /* CXMLNode_XPathExtensions.m */; };
 		0D8DDCA9136F2BE2002D0C19 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDC9B136F2BE2002D0C19 /* CTidy.m */; };
-		0D933D1F136F4B2E00A04A7D /* MKLocalNotificationsScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D933D1E136F4B2E00A04A7D /* MKLocalNotificationsScheduler.m */; };
 		0D9419C2136F517000AE8552 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9419C1136F517000AE8552 /* Icon.png */; };
 /* End PBXBuildFile section */
 
@@ -121,8 +120,6 @@
 		0D8DDC9A136F2BE2002D0C19 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
 		0D8DDC9B136F2BE2002D0C19 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
 		0D8DDC9C136F2BE2002D0C19 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
-		0D933D1D136F4B2E00A04A7D /* MKLocalNotificationsScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKLocalNotificationsScheduler.h; sourceTree = "<group>"; };
-		0D933D1E136F4B2E00A04A7D /* MKLocalNotificationsScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKLocalNotificationsScheduler.m; sourceTree = "<group>"; };
 		0D9419C1136F517000AE8552 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,7 +194,6 @@
 		0D8DDB6B136F1BCB002D0C19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0D933D1C136F4B2E00A04A7D /* MKLocalNotifs */,
 				0D083208136F3AD300ED6E67 /* CoreData.framework */,
 				0D0831D2136F38C900ED6E67 /* ActiverecordCoreData */,
 				0D8DDC7F136F2BE2002D0C19 /* TouchXML */,
@@ -333,16 +329,6 @@
 			path = Tidy;
 			sourceTree = "<group>";
 		};
-		0D933D1C136F4B2E00A04A7D /* MKLocalNotifs */ = {
-			isa = PBXGroup;
-			children = (
-				0D933D1D136F4B2E00A04A7D /* MKLocalNotificationsScheduler.h */,
-				0D933D1E136F4B2E00A04A7D /* MKLocalNotificationsScheduler.m */,
-			);
-			name = MKLocalNotifs;
-			path = BuildMonit/Libs/MKLocalNotifs;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -436,7 +422,6 @@
 				0D0831F2136F38E000ED6E67 /* DataModels.xcdatamodeld in Sources */,
 				0D0831F6136F392D00ED6E67 /* Server.m in Sources */,
 				0D0831FA136F396500ED6E67 /* AddServerViewController.m in Sources */,
-				0D933D1F136F4B2E00A04A7D /* MKLocalNotificationsScheduler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
