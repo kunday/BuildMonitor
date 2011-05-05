@@ -23,11 +23,7 @@
 
 - (void)viewDidLoad
 {
-    UIButton *addServerButton = [UIButton buttonWithType:UIButtonTypeContactAdd];
-    [addServerButton addTarget:self action:@selector(showAddServerView) forControlEvents:UIControlEventTouchUpInside];
-    UIBarButtonItem *addServerButtonItem = [[UIBarButtonItem alloc] initWithCustomView:addServerButton];
-    self.navigationItem.rightBarButtonItem = addServerButtonItem;
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemPlay target:self action:@selector(reloadData)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(reloadData)];
     [super viewDidLoad];
 }
 
@@ -61,11 +57,6 @@
         });
     });
 }
-- (void) showAddServerView {
-    AddServerViewController *controller = [[AddServerViewController alloc] init];
-    [self.navigationController pushViewController:controller animated:YES];
-}
-
 - (void)viewWillAppear:(BOOL)animated
 {
     [self reloadData];
