@@ -13,9 +13,17 @@
 @dynamic url;
 @dynamic name;
 
-+(void) create:(UnitOfWork)block {
++(void) transaction:(UnitOfWork)block {
 	[ActiveRecordHelpers performSaveDataOperationWithBlock:^(NSManagedObjectContext *context) {
-		block([self createEntity]);
+		block();
 	}];				
 }
+
++(void) create:(UnitOfWorkForEvent)block {
+	[self transaction:^{
+		block([self createEntity]);
+	}];
+}
+
+
 @end

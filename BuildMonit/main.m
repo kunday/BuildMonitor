@@ -11,9 +11,7 @@
 int main(int argc, char *argv[])
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    NSManagedObjectContext *myNewContext = [NSManagedObjectContext context];
-    [NSManagedObjectContext setDefaultContext:myNewContext];
-    NSLog(@"%@",myNewContext);
+    [NSManagedObjectContext setDefaultContext:[NSManagedObjectContext context]];
     int retVal = UIApplicationMain(argc, argv, nil, nil);
     [pool release];
     return retVal;

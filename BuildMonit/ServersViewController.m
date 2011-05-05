@@ -119,11 +119,12 @@
         [servers removeObjectAtIndex:indexPath.row];
         NSLog(@"%@",[server objectID]);
         NSArray *array = [Server findByAttribute:@"_pk" withValue:[server objectID]];
+        	[Server transaction:^{
         for (Server *server in array) {
             NSLog(@"deleting entity");
             [server deleteEntity];
         }
-        [Server truncateAll];
+            }];
         NSLog(@"server %d",[NSThread isMainThread] );
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
         [tableView endUpdates];
