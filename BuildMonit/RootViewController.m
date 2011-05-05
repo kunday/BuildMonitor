@@ -26,13 +26,11 @@
     dispatch_queue_t main_queue = dispatch_get_main_queue();
     dispatch_queue_t request_queue = dispatch_queue_create("com.kunday.BuildMonit", NULL);
     dispatch_async(request_queue, ^{
-        NSLog(@"dispatching fetch");
         NSFetchRequest *request = [Server requestAll];
         NSArray *localServers = [Server executeFetchRequest:request];
-        NSLog(@"%d",[localServers count]);
         NSMutableArray *localBuilds = [[NSMutableArray alloc] init];
+        NSLog(@"%@",localServers);
         for (Server *server in localServers) {
-            NSLog(@"%@",server.url);
             NSMutableArray *buildArray = [[NSMutableArray alloc] init];
             CCTrayParser *parser = [[CCTrayParser alloc] initWithUrl:server.url];
             for (Build *build in [parser parse]) {
@@ -40,9 +38,7 @@
             }
             [localBuilds addObject:buildArray];
         }
-        NSLog(@"starting to dispatch to main thread");
         dispatch_async(main_queue, ^{
-            NSLog(@"updaing on main thread");
             [builds removeAllObjects];
             for (NSArray *array in localBuilds) {
                 [builds addObject:array];
@@ -55,8 +51,6 @@
             return ;
         });
     });
-    
-   
 }
 - (void) showAddServerView {
     AddServerViewController *controller = [[AddServerViewController alloc] init];
@@ -111,14 +105,12 @@
     // Configure the cell.
     return cell;
 }
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    return nil;
+}
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-
-    if([servers count]>0) {
-            NSLog(@"coming to titleForHeaderInSection %@",[servers objectAtIndex:section]);
-        return [servers objectAtIndex:section];
-    }
-    return @"title";
+     return [servers objectAtIndex:section];
 }
 
 - (void)didReceiveMemoryWarning

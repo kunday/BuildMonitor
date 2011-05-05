@@ -18,8 +18,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [ActiveRecordHelpers setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"DataStore"];
+
     RootViewController *controller = [[RootViewController alloc] init];
     controller.title = @"Build Status";
+    
+//    ServersViewController *controller = [[ServersViewController alloc] init];
+//    [self.navigationController pushViewController:controller animated:YES];
+//
 
     self.navigationController.viewControllers = [NSArray arrayWithObject:controller];
     [controller release];
@@ -65,6 +70,7 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+    [ActiveRecordHelpers cleanUp];
     /*
      Called when the application is about to terminate.
      Save data if appropriate.
