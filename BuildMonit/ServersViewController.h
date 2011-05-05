@@ -5,4 +5,5 @@
     NSMutableArray *servers;
 }
 @property (nonatomic, retain) NSMutableArray *servers;
+- (id) initWithTabBar;
 @end

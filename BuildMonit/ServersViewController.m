@@ -13,6 +13,16 @@
     }
     return self;
 }
+
+- (id) initWithTabBar {
+    [self init];
+    if (self != nil) {
+        self.title = @"Servers";
+        self.navigationItem.title = @"Server List";
+    }
+    return self;
+}
+
 - (void)dealloc
 {
     [super dealloc];

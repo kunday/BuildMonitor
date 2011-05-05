@@ -12,6 +12,15 @@
     return self;
 }
 
+- (id) initWithTabBar {
+    [self init];
+    if (self != nil) {
+        self.title = @"Builds";
+        self.navigationItem.title = @"Build Status";
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     UIButton *addServerButton = [UIButton buttonWithType:UIButtonTypeContactAdd];

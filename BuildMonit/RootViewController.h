@@ -8,6 +8,7 @@
     NSMutableArray *servers;
 }
 @property (nonatomic, retain) NSMutableArray *builds;
+- (id) initWithTabBar;
 - (void)showAddServerView;
 - (void) reloadData;
 @end

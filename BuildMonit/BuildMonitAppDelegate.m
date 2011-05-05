@@ -11,28 +11,29 @@
 @implementation BuildMonitAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window;
 
-@synthesize navigationController=_navigationController;
+@synthesize tabBarController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [ActiveRecordHelpers setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"DataStore"];
-
-    RootViewController *controller = [[RootViewController alloc] init];
-    controller.title = @"Build Status";
+    [ActiveRecordHelpers setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"DataStore"];    
     
-//    ServersViewController *controller = [[ServersViewController alloc] init];
-//    [self.navigationController pushViewController:controller animated:YES];
-//
-
-    self.navigationController.viewControllers = [NSArray arrayWithObject:controller];
-    [controller release];
+    self.tabBarController = [[UITabBarController alloc] init];
     
-
-    // Override point for customization after application launch.
-    // Add the navigation controller's view to the window and display.
-        [self.window addSubview:self.navigationController.view];
+    UINavigationController *localRootNavigationController;
+    RootViewController *rootViewController = [[RootViewController alloc] initWithTabBar];
+    localRootNavigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    
+    UINavigationController *localServerNavigationController;
+    ServersViewController *serverViewController = [[ServersViewController alloc] initWithTabBar];
+    localServerNavigationController = [[UINavigationController alloc] initWithRootViewController:serverViewController];
+    
+    NSArray *controllers = [[NSArray alloc] initWithObjects:localRootNavigationController, localServerNavigationController, nil];
+    
+    self.tabBarController.viewControllers = controllers;
+    
+    [self.window addSubview:self.tabBarController.view];
 
     [self.window makeKeyAndVisible];
     return YES;
@@ -80,8 +81,9 @@
 
 - (void)dealloc
 {
-    [_window release];
-    [_navigationController release];
+    [window release];
+    [
+     tabBarController release];
     [super dealloc];
 }
 
