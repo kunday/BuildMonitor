@@ -1,6 +1,6 @@
-#import "RootViewController.h"
+#import "BuildStatusViewController.h"
 
-@implementation RootViewController
+@implementation BuildStatusViewController
 @synthesize builds;
 
 - (id)init{

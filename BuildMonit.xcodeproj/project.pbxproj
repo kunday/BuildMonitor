@@ -29,8 +29,8 @@
 		0D8DDB7A136F1BCB002D0C19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDB79136F1BCB002D0C19 /* main.m */; };
 		0D8DDB7D136F1BCB002D0C19 /* BuildMonitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDB7C136F1BCB002D0C19 /* BuildMonitAppDelegate.m */; };
 		0D8DDB80136F1BCB002D0C19 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8DDB7E136F1BCB002D0C19 /* MainWindow.xib */; };
-		0D8DDB83136F1BCB002D0C19 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDB82136F1BCB002D0C19 /* RootViewController.m */; };
-		0D8DDB86136F1BCB002D0C19 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8DDB84136F1BCB002D0C19 /* RootViewController.xib */; };
+		0D8DDB83136F1BCB002D0C19 /* BuildStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDB82136F1BCB002D0C19 /* BuildStatusViewController.m */; };
+		0D8DDB86136F1BCB002D0C19 /* BuildStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8DDB84136F1BCB002D0C19 /* BuildStatusViewController.xib */; };
 		0D8DDB9D136F1CA3002D0C19 /* CCTrayParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDB9C136F1CA3002D0C19 /* CCTrayParser.m */; };
 		0D8DDBA1136F1D12002D0C19 /* Build.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDBA0136F1D12002D0C19 /* Build.m */; };
 		0D8DDC9D136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8DDC82136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m */; };
@@ -99,9 +99,9 @@
 		0D8DDB7B136F1BCB002D0C19 /* BuildMonitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildMonitAppDelegate.h; sourceTree = "<group>"; };
 		0D8DDB7C136F1BCB002D0C19 /* BuildMonitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildMonitAppDelegate.m; sourceTree = "<group>"; };
 		0D8DDB7F136F1BCB002D0C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0D8DDB81136F1BCB002D0C19 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		0D8DDB82136F1BCB002D0C19 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		0D8DDB85136F1BCB002D0C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		0D8DDB81136F1BCB002D0C19 /* BuildStatusViewController.h */ = {isa = PBXFileReference; path = BuildStatusViewController.h; sourceTree = "<group>"; };
+		0D8DDB82136F1BCB002D0C19 /* BuildStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildStatusViewController.m; sourceTree = "<group>"; };
+		0D8DDB85136F1BCB002D0C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BuildStatusViewController.xib; sourceTree = "<group>"; };
 		0D8DDB9B136F1CA3002D0C19 /* CCTrayParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTrayParser.h; sourceTree = "<group>"; };
 		0D8DDB9C136F1CA3002D0C19 /* CCTrayParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTrayParser.m; sourceTree = "<group>"; };
 		0D8DDB9F136F1D12002D0C19 /* Build.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Build.h; sourceTree = "<group>"; };
@@ -263,8 +263,8 @@
 		0D8DDB8C136F1BE0002D0C19 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0D8DDB81136F1BCB002D0C19 /* RootViewController.h */,
-				0D8DDB82136F1BCB002D0C19 /* RootViewController.m */,
+				0D8DDB81136F1BCB002D0C19 /* BuildStatusViewController.h */,
+				0D8DDB82136F1BCB002D0C19 /* BuildStatusViewController.m */,
 				0D0831F7136F396500ED6E67 /* AddServerViewController.h */,
 				0D0831F8136F396500ED6E67 /* AddServerViewController.m */,
 				0DA9AA561372EB6A005C86C4 /* ServersViewController.h */,
@@ -280,7 +280,7 @@
 				0D9419C1136F517000AE8552 /* Icon.png */,
 				0D0831F9136F396500ED6E67 /* AddServerViewController.xib */,
 				0D8DDB7E136F1BCB002D0C19 /* MainWindow.xib */,
-				0D8DDB84136F1BCB002D0C19 /* RootViewController.xib */,
+				0D8DDB84136F1BCB002D0C19 /* BuildStatusViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -431,7 +431,7 @@
 			files = (
 				0D8DDB77136F1BCB002D0C19 /* InfoPlist.strings in Resources */,
 				0D8DDB80136F1BCB002D0C19 /* MainWindow.xib in Resources */,
-				0D8DDB86136F1BCB002D0C19 /* RootViewController.xib in Resources */,
+				0D8DDB86136F1BCB002D0C19 /* BuildStatusViewController.xib in Resources */,
 				0D0831E5136F38C900ED6E67 /* .gitignore in Resources */,
 				0D0831E8136F38C900ED6E67 /* LICENSE in Resources */,
 				0D0831EE136F38C900ED6E67 /* README.md in Resources */,
@@ -459,7 +459,7 @@
 			files = (
 				0D8DDB7A136F1BCB002D0C19 /* main.m in Sources */,
 				0D8DDB7D136F1BCB002D0C19 /* BuildMonitAppDelegate.m in Sources */,
-				0D8DDB83136F1BCB002D0C19 /* RootViewController.m in Sources */,
+				0D8DDB83136F1BCB002D0C19 /* BuildStatusViewController.m in Sources */,
 				0D8DDB9D136F1CA3002D0C19 /* CCTrayParser.m in Sources */,
 				0D8DDBA1136F1D12002D0C19 /* Build.m in Sources */,
 				0D8DDC9D136F2BE2002D0C19 /* CXMLDocument_CreationExtensions.m in Sources */,
@@ -509,12 +509,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		0D8DDB84136F1BCB002D0C19 /* RootViewController.xib */ = {
+		0D8DDB84136F1BCB002D0C19 /* BuildStatusViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0D8DDB85136F1BCB002D0C19 /* en */,
 			);
-			name = RootViewController.xib;
+			name = BuildStatusViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -22,7 +22,7 @@
     self.tabBarController = [[UITabBarController alloc] init];
     
     UINavigationController *localRootNavigationController;
-    RootViewController *rootViewController = [[RootViewController alloc] initWithTabBar];
+    BuildStatusViewController *rootViewController = [[BuildStatusViewController alloc] initWithTabBar];
     localRootNavigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
     
     UINavigationController *localServerNavigationController;

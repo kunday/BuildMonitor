@@ -3,7 +3,7 @@
 #import "ServersViewController.h"
 #import "MKInfoPanel.h"
 
-@interface RootViewController : UITableViewController {
+@interface BuildStatusViewController : UITableViewController {
     NSMutableArray *builds;
     NSMutableArray *servers;
 }
