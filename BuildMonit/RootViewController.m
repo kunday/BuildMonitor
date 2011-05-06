@@ -34,14 +34,22 @@
         NSFetchRequest *request = [Server requestAll];
         NSArray *localServers = [Server executeFetchRequest:request];
         NSMutableArray *localBuilds = [[NSMutableArray alloc] init];
+        int countOfFailedBuilds = 0;
         NSLog(@"%@",localServers);
         for (Server *server in localServers) {
             NSMutableArray *buildArray = [[NSMutableArray alloc] init];
             CCTrayParser *parser = [[CCTrayParser alloc] initWithUrl:server.url];
             for (Build *build in [parser parse]) {
+                if (![build.lastBuildStatus isEqualToString:@"Success"]) {
+                    countOfFailedBuilds++;
+                }
                 [buildArray addObject:build];
             }
             [localBuilds addObject:buildArray];
+        }
+        NSString *buildStatusNotificationString = @"All Builds Passed";
+        if(countOfFailedBuilds > 0 ){
+            buildStatusNotificationString = [NSString stringWithFormat:@"%d recent builds Failed",countOfFailedBuilds];
         }
         dispatch_async(main_queue, ^{
             [builds removeAllObjects];
@@ -56,7 +64,7 @@
             [MKInfoPanel showPanelInView:self.view 
                                     type:MKInfoPanelTypeInfo 
                                    title:@"Refresh Complete!" 
-                                subtitle:nil
+                                subtitle:buildStatusNotificationString
                                hideAfter:2];
             return ;
         });
