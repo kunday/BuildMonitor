@@ -53,13 +53,17 @@
                 [servers addObject:server.name];
             }
             [self.tableView reloadData];
+            [MKInfoPanel showPanelInView:self.view 
+                                    type:MKInfoPanelTypeInfo 
+                                   title:@"Refresh Complete!" 
+                                subtitle:nil
+                               hideAfter:2];
             return ;
         });
     });
 }
 - (void)viewWillAppear:(BOOL)animated
 {
-    [self reloadData];
     [super viewWillAppear:animated];
 }
 

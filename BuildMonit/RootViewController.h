@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "CCTrayParser.h"
 #import "ServersViewController.h"
+#import "MKInfoPanel.h"
 
 @interface RootViewController : UITableViewController {
     NSMutableArray *builds;

@@ -49,6 +49,17 @@
 		0D9419C2136F517000AE8552 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9419C1136F517000AE8552 /* Icon.png */; };
 		0DA9AA591372EB6A005C86C4 /* ServersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA9AA571372EB6A005C86C4 /* ServersViewController.m */; };
 		0DA9AA5A1372EB6A005C86C4 /* ServersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DA9AA581372EB6A005C86C4 /* ServersViewController.xib */; };
+		0DEA6E00137415B3007C0A54 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DF5137415B3007C0A54 /* Blue.png */; };
+		0DEA6E01137415B3007C0A54 /* Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DF6137415B3007C0A54 /* Blue@2x.png */; };
+		0DEA6E02137415B3007C0A54 /* MKInfoPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEA6DF8137415B3007C0A54 /* MKInfoPanel.m */; };
+		0DEA6E03137415B3007C0A54 /* MKInfoPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DF9137415B3007C0A54 /* MKInfoPanel.xib */; };
+		0DEA6E04137415B3007C0A54 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DFA137415B3007C0A54 /* Red.png */; };
+		0DEA6E05137415B3007C0A54 /* Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DFB137415B3007C0A54 /* Red@2x.png */; };
+		0DEA6E06137415B3007C0A54 /* Tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DFC137415B3007C0A54 /* Tick.png */; };
+		0DEA6E07137415B3007C0A54 /* Tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DFD137415B3007C0A54 /* Tick@2x.png */; };
+		0DEA6E08137415B3007C0A54 /* Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DFE137415B3007C0A54 /* Warning.png */; };
+		0DEA6E09137415B3007C0A54 /* Warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DEA6DFF137415B3007C0A54 /* Warning@2x.png */; };
+		0DEA6E0C137415D3007C0A54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEA6E0B137415D3007C0A54 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +137,18 @@
 		0DA9AA561372EB6A005C86C4 /* ServersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServersViewController.h; sourceTree = "<group>"; };
 		0DA9AA571372EB6A005C86C4 /* ServersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServersViewController.m; sourceTree = "<group>"; };
 		0DA9AA581372EB6A005C86C4 /* ServersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServersViewController.xib; sourceTree = "<group>"; };
+		0DEA6DF5137415B3007C0A54 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		0DEA6DF6137415B3007C0A54 /* Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue@2x.png"; sourceTree = "<group>"; };
+		0DEA6DF7137415B3007C0A54 /* MKInfoPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKInfoPanel.h; sourceTree = "<group>"; };
+		0DEA6DF8137415B3007C0A54 /* MKInfoPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKInfoPanel.m; sourceTree = "<group>"; };
+		0DEA6DF9137415B3007C0A54 /* MKInfoPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKInfoPanel.xib; sourceTree = "<group>"; };
+		0DEA6DFA137415B3007C0A54 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		0DEA6DFB137415B3007C0A54 /* Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red@2x.png"; sourceTree = "<group>"; };
+		0DEA6DFC137415B3007C0A54 /* Tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick.png; sourceTree = "<group>"; };
+		0DEA6DFD137415B3007C0A54 /* Tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tick@2x.png"; sourceTree = "<group>"; };
+		0DEA6DFE137415B3007C0A54 /* Warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warning.png; sourceTree = "<group>"; };
+		0DEA6DFF137415B3007C0A54 /* Warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warning@2x.png"; sourceTree = "<group>"; };
+		0DEA6E0B137415D3007C0A54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEA6E0C137415D3007C0A54 /* QuartzCore.framework in Frameworks */,
 				0D083209136F3AD300ED6E67 /* CoreData.framework in Frameworks */,
 				0D8DDB6D136F1BCB002D0C19 /* UIKit.framework in Frameworks */,
 				0D8DDB6F136F1BCB002D0C19 /* Foundation.framework in Frameworks */,
@@ -181,6 +205,7 @@
 		0D8DDB5D136F1BCB002D0C19 = {
 			isa = PBXGroup;
 			children = (
+				0DEA6E0B137415D3007C0A54 /* QuartzCore.framework */,
 				0D0831F0136F38E000ED6E67 /* DataModels.xcdatamodeld */,
 				0D8DDB72136F1BCB002D0C19 /* BuildMonit */,
 				0D8DDB6B136F1BCB002D0C19 /* Frameworks */,
@@ -199,6 +224,7 @@
 		0D8DDB6B136F1BCB002D0C19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DEA6DF4137415B3007C0A54 /* MKInfoBundle */,
 				0D083208136F3AD300ED6E67 /* CoreData.framework */,
 				0D0831D2136F38C900ED6E67 /* ActiverecordCoreData */,
 				0D8DDC7F136F2BE2002D0C19 /* TouchXML */,
@@ -337,6 +363,25 @@
 			path = Tidy;
 			sourceTree = "<group>";
 		};
+		0DEA6DF4137415B3007C0A54 /* MKInfoBundle */ = {
+			isa = PBXGroup;
+			children = (
+				0DEA6DF5137415B3007C0A54 /* Blue.png */,
+				0DEA6DF6137415B3007C0A54 /* Blue@2x.png */,
+				0DEA6DF7137415B3007C0A54 /* MKInfoPanel.h */,
+				0DEA6DF8137415B3007C0A54 /* MKInfoPanel.m */,
+				0DEA6DF9137415B3007C0A54 /* MKInfoPanel.xib */,
+				0DEA6DFA137415B3007C0A54 /* Red.png */,
+				0DEA6DFB137415B3007C0A54 /* Red@2x.png */,
+				0DEA6DFC137415B3007C0A54 /* Tick.png */,
+				0DEA6DFD137415B3007C0A54 /* Tick@2x.png */,
+				0DEA6DFE137415B3007C0A54 /* Warning.png */,
+				0DEA6DFF137415B3007C0A54 /* Warning@2x.png */,
+			);
+			name = MKInfoBundle;
+			path = BuildMonit/Libs/MKInfoBundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,6 +438,15 @@
 				0D0831FB136F396500ED6E67 /* AddServerViewController.xib in Resources */,
 				0D9419C2136F517000AE8552 /* Icon.png in Resources */,
 				0DA9AA5A1372EB6A005C86C4 /* ServersViewController.xib in Resources */,
+				0DEA6E00137415B3007C0A54 /* Blue.png in Resources */,
+				0DEA6E01137415B3007C0A54 /* Blue@2x.png in Resources */,
+				0DEA6E03137415B3007C0A54 /* MKInfoPanel.xib in Resources */,
+				0DEA6E04137415B3007C0A54 /* Red.png in Resources */,
+				0DEA6E05137415B3007C0A54 /* Red@2x.png in Resources */,
+				0DEA6E06137415B3007C0A54 /* Tick.png in Resources */,
+				0DEA6E07137415B3007C0A54 /* Tick@2x.png in Resources */,
+				0DEA6E08137415B3007C0A54 /* Warning.png in Resources */,
+				0DEA6E09137415B3007C0A54 /* Warning@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +486,7 @@
 				0D0831F6136F392D00ED6E67 /* Server.m in Sources */,
 				0D0831FA136F396500ED6E67 /* AddServerViewController.m in Sources */,
 				0DA9AA591372EB6A005C86C4 /* ServersViewController.m in Sources */,
+				0DEA6E02137415B3007C0A54 /* MKInfoPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
