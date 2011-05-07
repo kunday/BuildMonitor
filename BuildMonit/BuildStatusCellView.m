@@ -10,7 +10,7 @@
 
 
 @implementation BuildStatusCellView
-
+@synthesize buildName, buildSequence, buildTime, buildStatus;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) {
         // Initialization code

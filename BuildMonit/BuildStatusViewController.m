@@ -126,8 +126,10 @@
     NSMutableArray *buildArray = [builds objectAtIndex:indexPath.section];
     if ([buildArray count]>0) {
         Build *build = [buildArray objectAtIndex:indexPath.row];
-//        cell.textLabel.text = build.name;
-//        cell.detailTextLabel.text = build.lastBuildStatus;
+        cell.buildName.text = build.name;
+        cell.buildSequence.text = build.lastBuildLabel;
+        cell.buildStatus.text = build.lastBuildStatus;
+        cell.buildTime.text = build.lastBuildTime;
     }
     // Configure the cell.
     return cell;

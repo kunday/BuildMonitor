@@ -10,7 +10,13 @@
 
 
 @interface BuildStatusCellView : UITableViewCell {
-    
+    IBOutlet UILabel *buildName;
+    IBOutlet UILabel *buildSequence;
+    IBOutlet UILabel *buildTime;
+    IBOutlet UILabel *buildStatus;
 }
-
+@property (nonatomic,retain) IBOutlet UILabel *buildName;
+@property (nonatomic,retain) IBOutlet UILabel *buildSequence; 
+@property (nonatomic,retain) IBOutlet UILabel *buildTime;
+@property (nonatomic,retain) IBOutlet UILabel *buildStatus;
 @end
