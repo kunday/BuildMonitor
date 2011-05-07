@@ -50,7 +50,7 @@
 							<object class="IBUILabel" id="613548852">
 								<reference key="NSNextResponder" ref="892947766"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{7, 11}, {42, 21}}</string>
+								<string key="NSFrame">{{7, 11}, {59, 21}}</string>
 								<reference key="NSSuperview" ref="892947766"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="113521432"/>
@@ -80,7 +80,7 @@
 							<object class="IBUILabel" id="113521432">
 								<reference key="NSNextResponder" ref="892947766"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{51, 0}, {260, 29}}</string>
+								<string key="NSFrame">{{69, 0}, {241, 29}}</string>
 								<reference key="NSSuperview" ref="892947766"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="307340657"/>
@@ -106,7 +106,7 @@
 							<object class="IBUILabel" id="307340657">
 								<reference key="NSNextResponder" ref="892947766"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{51, 23}, {63, 21}}</string>
+								<string key="NSFrame">{{69, 23}, {63, 21}}</string>
 								<reference key="NSSuperview" ref="892947766"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="470469833"/>
@@ -132,7 +132,7 @@
 							<object class="IBUILabel" id="470469833">
 								<reference key="NSNextResponder" ref="892947766"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{121, 23}, {112, 21}}</string>
+								<string key="NSFrame">{{139, 23}, {112, 21}}</string>
 								<reference key="NSSuperview" ref="892947766"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView"/>
@@ -237,10 +237,10 @@
 						<reference key="object" ref="559995326"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="613548852"/>
 							<reference ref="113521432"/>
 							<reference ref="307340657"/>
 							<reference ref="470469833"/>
+							<reference ref="613548852"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
