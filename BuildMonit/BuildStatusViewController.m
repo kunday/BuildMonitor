@@ -100,21 +100,36 @@
     return [[builds objectAtIndex:section] count];
 }
 
+-(BuildStatusCellView*)createStoreItemCellFromNib {
+	NSArray* nibContents = [[NSBundle mainBundle] loadNibNamed:@"BuildStatusCellView" owner:self options:nil];
+	NSEnumerator *nibEnumerator = [nibContents objectEnumerator];
+	BuildStatusCellView* cell = nil;
+	NSObject* nibItem = nil;
+	while ((nibItem = [nibEnumerator nextObject]) != nil) {
+        NSLog(@"found some nib items, %@",[nibItem class]);
+		if([nibItem isKindOfClass: [BuildStatusCellView class]]) {
+			cell = (BuildStatusCellView*)nibItem;
+			break;
+		}
+	}
+	return cell;
+}
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"BuildStatusCellView";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    BuildStatusCellView *cell = (BuildStatusCellView *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell = [self createStoreItemCellFromNib];
     }
     NSMutableArray *buildArray = [builds objectAtIndex:indexPath.section];
     if ([buildArray count]>0) {
         Build *build = [buildArray objectAtIndex:indexPath.row];
-        cell.textLabel.text = build.name;
-        cell.detailTextLabel.text = build.lastBuildStatus;
+        cell.buildName.text = build.name;
+        cell.buildSequence.text = build.lastBuildLabel;
+        cell.buildStatus.text = build.lastBuildStatus;
+        cell.buildTime.text = build.lastBuildTime;
     }
-    // Configure the cell.
     return cell;
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {

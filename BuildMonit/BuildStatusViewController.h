@@ -2,6 +2,7 @@
 #import "CCTrayParser.h"
 #import "ServersViewController.h"
 #import "MKInfoPanel.h"
+#import "BuildStatusCellView.h"
 
 @interface BuildStatusViewController : UITableViewController {
     NSMutableArray *builds;

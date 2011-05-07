@@ -22,6 +22,8 @@
 		0D0831FA136F396500ED6E67 /* AddServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0831F8136F396500ED6E67 /* AddServerViewController.m */; };
 		0D0831FB136F396500ED6E67 /* AddServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D0831F9136F396500ED6E67 /* AddServerViewController.xib */; };
 		0D083209136F3AD300ED6E67 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D083208136F3AD300ED6E67 /* CoreData.framework */; };
+		0D78504813741D0000D67898 /* BuildStatusCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D78504613741D0000D67898 /* BuildStatusCellView.m */; };
+		0D78504913741D0000D67898 /* BuildStatusCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D78504713741D0000D67898 /* BuildStatusCellView.xib */; };
 		0D8DDB6D136F1BCB002D0C19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DDB6C136F1BCB002D0C19 /* UIKit.framework */; };
 		0D8DDB6F136F1BCB002D0C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DDB6E136F1BCB002D0C19 /* Foundation.framework */; };
 		0D8DDB71136F1BCB002D0C19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8DDB70136F1BCB002D0C19 /* CoreGraphics.framework */; };
@@ -88,6 +90,9 @@
 		0D0831F8136F396500ED6E67 /* AddServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddServerViewController.m; sourceTree = "<group>"; };
 		0D0831F9136F396500ED6E67 /* AddServerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddServerViewController.xib; sourceTree = "<group>"; };
 		0D083208136F3AD300ED6E67 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0D78504513741D0000D67898 /* BuildStatusCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildStatusCellView.h; sourceTree = "<group>"; };
+		0D78504613741D0000D67898 /* BuildStatusCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildStatusCellView.m; sourceTree = "<group>"; };
+		0D78504713741D0000D67898 /* BuildStatusCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuildStatusCellView.xib; sourceTree = "<group>"; };
 		0D8DDB68136F1BCB002D0C19 /* BuildMonit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildMonit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8DDB6C136F1BCB002D0C19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0D8DDB6E136F1BCB002D0C19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,7 +104,7 @@
 		0D8DDB7B136F1BCB002D0C19 /* BuildMonitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildMonitAppDelegate.h; sourceTree = "<group>"; };
 		0D8DDB7C136F1BCB002D0C19 /* BuildMonitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildMonitAppDelegate.m; sourceTree = "<group>"; };
 		0D8DDB7F136F1BCB002D0C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		0D8DDB81136F1BCB002D0C19 /* BuildStatusViewController.h */ = {isa = PBXFileReference; path = BuildStatusViewController.h; sourceTree = "<group>"; };
+		0D8DDB81136F1BCB002D0C19 /* BuildStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildStatusViewController.h; sourceTree = "<group>"; };
 		0D8DDB82136F1BCB002D0C19 /* BuildStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildStatusViewController.m; sourceTree = "<group>"; };
 		0D8DDB85136F1BCB002D0C19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BuildStatusViewController.xib; sourceTree = "<group>"; };
 		0D8DDB9B136F1CA3002D0C19 /* CCTrayParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTrayParser.h; sourceTree = "<group>"; };
@@ -205,7 +210,6 @@
 		0D8DDB5D136F1BCB002D0C19 = {
 			isa = PBXGroup;
 			children = (
-				0DEA6E0B137415D3007C0A54 /* QuartzCore.framework */,
 				0D0831F0136F38E000ED6E67 /* DataModels.xcdatamodeld */,
 				0D8DDB72136F1BCB002D0C19 /* BuildMonit */,
 				0D8DDB6B136F1BCB002D0C19 /* Frameworks */,
@@ -224,6 +228,7 @@
 		0D8DDB6B136F1BCB002D0C19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DEA6E0B137415D3007C0A54 /* QuartzCore.framework */,
 				0DEA6DF4137415B3007C0A54 /* MKInfoBundle */,
 				0D083208136F3AD300ED6E67 /* CoreData.framework */,
 				0D0831D2136F38C900ED6E67 /* ActiverecordCoreData */,
@@ -269,6 +274,8 @@
 				0D0831F8136F396500ED6E67 /* AddServerViewController.m */,
 				0DA9AA561372EB6A005C86C4 /* ServersViewController.h */,
 				0DA9AA571372EB6A005C86C4 /* ServersViewController.m */,
+				0D78504513741D0000D67898 /* BuildStatusCellView.h */,
+				0D78504613741D0000D67898 /* BuildStatusCellView.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -276,6 +283,7 @@
 		0D8DDB8D136F1BEF002D0C19 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D78504713741D0000D67898 /* BuildStatusCellView.xib */,
 				0DA9AA581372EB6A005C86C4 /* ServersViewController.xib */,
 				0D9419C1136F517000AE8552 /* Icon.png */,
 				0D0831F9136F396500ED6E67 /* AddServerViewController.xib */,
@@ -447,6 +455,7 @@
 				0DEA6E07137415B3007C0A54 /* Tick@2x.png in Resources */,
 				0DEA6E08137415B3007C0A54 /* Warning.png in Resources */,
 				0DEA6E09137415B3007C0A54 /* Warning@2x.png in Resources */,
+				0D78504913741D0000D67898 /* BuildStatusCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +496,7 @@
 				0D0831FA136F396500ED6E67 /* AddServerViewController.m in Sources */,
 				0DA9AA591372EB6A005C86C4 /* ServersViewController.m in Sources */,
 				0DEA6E02137415B3007C0A54 /* MKInfoPanel.m in Sources */,
+				0D78504813741D0000D67898 /* BuildStatusCellView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
