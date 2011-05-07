@@ -121,7 +121,6 @@
     BuildStatusCellView *cell = (BuildStatusCellView *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [self createStoreItemCellFromNib];
-        NSLog(@"%@",cell);
     }
     NSMutableArray *buildArray = [builds objectAtIndex:indexPath.section];
     if ([buildArray count]>0) {
@@ -131,7 +130,6 @@
         cell.buildStatus.text = build.lastBuildStatus;
         cell.buildTime.text = build.lastBuildTime;
     }
-    // Configure the cell.
     return cell;
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
